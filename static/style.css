@@ -36,7 +36,18 @@ text-align:center;
 }
 
 h2{
+
 margin-bottom:20px;
+font-size:28px;
+transition:0.5s;
+
+}
+
+/* Hover color change */
+
+h2:hover{
+color:#00ffcc;
+transform:scale(1.1);
 }
 
 input{
@@ -63,19 +74,45 @@ border-radius:5px;
 
 font-size:16px;
 cursor:pointer;
+transition:0.3s;
 
 }
 
 button:hover{
-background:#009624;
+
+background:#00ffcc;
+color:black;
+transform:scale(1.05);
+
 }
 
 p{
+
 margin:8px;
 font-size:18px;
+transition:0.3s;
+
+}
+
+/* Interactive text */
+
+p:hover{
+
+color:#ffff00;
+transform:scale(1.05);
+
 }
 
 h3{
+
 margin-top:15px;
-color:#ffff99;
+color:#ffcc00;
+transition:0.4s;
+
+}
+
+h3:hover{
+
+color:#00ffcc;
+
 }
