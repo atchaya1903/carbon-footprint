@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Carbon Calculator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Carbon Footprint Calculator</h2>
+
+<form action="/calculate" method="post">
+
+Electricity Usage (kWh)
+<input type="number" name="electricity">
+
+Petrol Usage (Litres)
+<input type="number" name="petrol">
+
+LPG Usage (kg)
+<input type="number" name="lpg">
+
+Bus Travel (km)
+<input type="number" name="bus">
+
+Train Travel (km)
+<input type="number" name="train">
+
+<button type="submit">Calculate</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Result</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Carbon Footprint Result</h2>
+
+<p>Electricity : {{electricity}} kg CO2</p>
+<p>Petrol : {{petrol}} kg CO2</p>
+<p>LPG : {{lpg}} kg CO2</p>
+<p>Bus : {{bus}} kg CO2</p>
+<p>Train : {{train}} kg CO2</p>
+
+<h3>Total Carbon Footprint : {{total}}</h3>
+
+<h3>{{advice}}</h3>
+
+<a href="/"><button>Home</button></a>
+
+</div>
+
+</body>
+</html>
